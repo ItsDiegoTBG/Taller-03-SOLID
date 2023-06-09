@@ -10,9 +10,9 @@ private Reloj reloj;
 private Navegador navegador;
 
 	public Smartphone() {
-	this.camara = new camara(); // Violación del DIP
-	this.reloj = new reloj(); // Violación del DIP
-	this.navegador = new navegador(); // Violación del DIP
+	this.camara = new Camara(); // Violación del DIP
+	this.reloj = new Reloj(); // Violación del DIP
+	this.navegador = new Navegador(); // Violación del DIP
 }
 	
 //Modulos de bajo nivel
