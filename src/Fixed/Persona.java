@@ -17,6 +17,17 @@ Persona(String id, String nombreCompleto){
 	public String getNombreC(){
 	return nombreCompleto;
 }
+//Open and Close Principle
+	public static void main(String[] args) {
+		Persona[] lP= {
+				new Medico("2","Pablito Gomez"),
+				new Abañil("3","Roberto Lara")};
+	for (Persona s:lP) {
 	
-	
+			System.out.println(s.getTrabajo());
+			
+		}		
+	}
+
+ abstract String getTrabajo();
 }

@@ -18,8 +18,8 @@ Persona(String id, String nombreCompleto){
 	return nombreCompleto;
 }
 	
-	public void giveAssigments(String homework) {
-		 System.out.println(homework+""+nombreCompleto);
+	public void giveJob(String work) {
+		 System.out.println(work);
 		
 	}
 	
